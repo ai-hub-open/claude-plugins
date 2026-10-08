@@ -5,7 +5,7 @@
   "plugins": [
     {
       "name": "yandex-direct-manager",
-      "source": { "source": "github", "repo": "ai-hub-open/yandex-direct-manager" },
+      "source": { "source": "url", "url": "https://github.com/ai-hub-open/yandex-direct-manager.git" },
       "description": "Создание РК в Яндекс.Директе от брифа до DRAFT: семантика, минусы, объявления, цели Метрики, заливка через MCP"
     }
   ]
