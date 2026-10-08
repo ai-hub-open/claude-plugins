@@ -1,0 +1,12 @@
+{
+  "name": "ai-hub-open",
+  "description": "Открытые скиллы ai-hub-open для рекламы: Яндекс.Директ, VK Реклама, маркетинговая стратегия",
+  "owner": { "name": "ai-hub-open" },
+  "plugins": [
+    {
+      "name": "yandex-direct-manager",
+      "source": { "source": "github", "repo": "ai-hub-open/yandex-direct-manager" },
+      "description": "Создание РК в Яндекс.Директе от брифа до DRAFT: семантика, минусы, объявления, цели Метрики, заливка через MCP"
+    }
+  ]
+}
