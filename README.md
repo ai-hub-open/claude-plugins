@@ -11,6 +11,7 @@
 /plugin install yandex-direct-manager@ai-hub-open
 /plugin install marketing-strategist@ai-hub-open
 /plugin install vk-ads-manager@ai-hub-open
+/plugin install yandex-direct-audit@ai-hub-open
 ```
 
 Ставьте нужные: плагины независимы.
@@ -25,6 +26,7 @@
 | `yandex-direct-manager` | Создание кампании в Яндекс.Директе от брифа до DRAFT | [ai-hub-open/yandex-direct-manager](https://github.com/ai-hub-open/yandex-direct-manager) |
 | `marketing-strategist` | Маркетинговая стратегия до запуска: каналы, бюджет по фазам, KPI, передача в площадочные скиллы | [ai-hub-open/marketing-strategist](https://github.com/ai-hub-open/marketing-strategist) |
 | `vk-ads-manager` | VK Реклама от брифа до залива в кабинет и работы с активной кампанией | [ai-hub-open/vk-ads-manager](https://github.com/ai-hub-open/vk-ads-manager) |
+| `yandex-direct-audit` | Аудит, точечные правки и недельное ведение работающих кампаний Директа | [ai-hub-open/yandex-direct-audit](https://github.com/ai-hub-open/yandex-direct-audit) |
 
 ## Для авторов: как выпустить обновление
 
