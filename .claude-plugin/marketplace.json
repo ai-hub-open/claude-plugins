@@ -7,6 +7,11 @@
       "name": "yandex-direct-manager",
       "source": { "source": "url", "url": "https://github.com/ai-hub-open/yandex-direct-manager.git" },
       "description": "Создание РК в Яндекс.Директе от брифа до DRAFT: семантика, минусы, объявления, цели Метрики, заливка через MCP"
+    },
+    {
+      "name": "marketing-strategist",
+      "source": { "source": "url", "url": "https://github.com/ai-hub-open/marketing-strategist.git" },
+      "description": "Маркетинговая стратегия до запуска рекламы: бриф, конкуренты, персоны, УТП, выбор каналов, бюджет по фазам, KPI"
     }
   ]
 }

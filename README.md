@@ -9,7 +9,10 @@
 ```
 /plugin marketplace add ai-hub-open/claude-plugins
 /plugin install yandex-direct-manager@ai-hub-open
+/plugin install marketing-strategist@ai-hub-open
 ```
+
+Ставьте нужные: плагины независимы.
 
 Один раз включите автообновление: `/plugin` → **Marketplaces** → `ai-hub-open` → **Enable auto-update**.
 Без него обновляйтесь командой `/plugin marketplace update ai-hub-open`.
@@ -19,6 +22,7 @@
 | Плагин | Что делает | Репозиторий |
 |---|---|---|
 | `yandex-direct-manager` | Создание кампании в Яндекс.Директе от брифа до DRAFT | [ai-hub-open/yandex-direct-manager](https://github.com/ai-hub-open/yandex-direct-manager) |
+| `marketing-strategist` | Маркетинговая стратегия до запуска: каналы, бюджет по фазам, KPI, передача в площадочные скиллы | [ai-hub-open/marketing-strategist](https://github.com/ai-hub-open/marketing-strategist) |
 
 ## Для авторов: как выпустить обновление
 
