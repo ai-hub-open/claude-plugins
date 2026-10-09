@@ -1,7 +1,7 @@
 {
   "name": "ai-hub-open",
-  "description": "Открытые скиллы ai-hub-open для рекламы: Яндекс.Директ, Яндекс Метрика, VK Реклама, маркетинговая стратегия",
-  "owner": { "name": "ai-hub-open" },
+  "owner": { "name": "ai-hub-open", "url": "https://github.com/ai-hub-open" },
+  "metadata": { "description": "Открытые скиллы ai-hub-open для рекламы: Яндекс.Директ, Яндекс Метрика, VK Реклама, маркетинговая стратегия" },
   "plugins": [
     {
       "name": "yandex-direct-manager",
