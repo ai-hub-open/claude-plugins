@@ -37,7 +37,7 @@ Git и откройте окно терминала заново.
 После установки Git **полностью закройте Claude Desktop и откройте снова** — иначе он Git
 не увидит.
 
-### Шаг 2. Добавьте каталог
+### Шаг 2. Добавьте скиллы при помощи [claude-plugins](https://github.com/ai-hub-open/claude-plugins)
 
 1. В Claude Desktop откройте **Settings → Plugins**.
 2. Нажмите **+ → Add marketplace → Add from repository**.
