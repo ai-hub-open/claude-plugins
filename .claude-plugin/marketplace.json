@@ -1,6 +1,6 @@
 {
   "name": "ai-hub-open",
-  "description": "Открытые скиллы ai-hub-open для рекламы: Яндекс.Директ, VK Реклама, маркетинговая стратегия",
+  "description": "Открытые скиллы ai-hub-open для рекламы: Яндекс.Директ, Яндекс Метрика, VK Реклама, маркетинговая стратегия",
   "owner": { "name": "ai-hub-open" },
   "plugins": [
     {
@@ -22,6 +22,11 @@
       "name": "yandex-direct-audit",
       "source": { "source": "url", "url": "https://github.com/ai-hub-open/yandex-direct-audit.git" },
       "description": "Аудит, точечные правки и недельное ведение работающих кампаний Яндекс.Директа; правки только после явного «ОК», с журналом для отката"
+    },
+    {
+      "name": "yandex-metrika-manager",
+      "source": { "source": "url", "url": "https://github.com/ai-hub-open/yandex-metrika-manager.git" },
+      "description": "Аудит, анализ и управление Яндекс Метрикой: можно ли верить данным, ответы на вопросы по данным, цели и сегменты под гейтом"
     }
   ]
 }
