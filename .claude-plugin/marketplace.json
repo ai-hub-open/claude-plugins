@@ -17,6 +17,11 @@
       "name": "vk-ads-manager",
       "source": { "source": "url", "url": "https://github.com/ai-hub-open/vk-ads-manager.git" },
       "description": "VK Реклама от брифа до залива и работы с активной кампанией: аудитории, УТП, прогноз, креативы, залив через MCP или API"
+    },
+    {
+      "name": "yandex-direct-audit",
+      "source": { "source": "url", "url": "https://github.com/ai-hub-open/yandex-direct-audit.git" },
+      "description": "Аудит, точечные правки и недельное ведение работающих кампаний Яндекс.Директа; правки только после явного «ОК», с журналом для отката"
     }
   ]
 }
