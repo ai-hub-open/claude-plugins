@@ -8,6 +8,7 @@
 | `yandex-direct-manager` | Создание кампании в Яндекс.Директе от брифа до черновика в кабинете | [ai-hub-open/yandex-direct-manager](https://github.com/ai-hub-open/yandex-direct-manager) |
 | `yandex-direct-audit` | Аудит, точечные правки и недельное ведение работающих кампаний Директа | [ai-hub-open/yandex-direct-audit](https://github.com/ai-hub-open/yandex-direct-audit) |
 | `vk-ads-manager` | VK Реклама от брифа до залива в кабинет и работы с активной кампанией | [ai-hub-open/vk-ads-manager](https://github.com/ai-hub-open/vk-ads-manager) |
+| `vk-ads-audit` | Аудит и быстрый анализ кабинета VK Рекламы только на чтение → HTML-отчёт с приоритетами | [ai-hub-open/vk-ads-audit](https://github.com/ai-hub-open/vk-ads-audit) |
 | `yandex-metrika-manager` | Аудит, анализ и управление Яндекс Метрикой (цели и сегменты под гейтом) | [ai-hub-open/yandex-metrika-manager](https://github.com/ai-hub-open/yandex-metrika-manager) |
 
 Ставьте только нужные — скиллы независимы. Стратег сам передаёт готовую стратегию в скиллы
@@ -62,6 +63,7 @@
 /plugin install yandex-direct-manager@ai-hub-open
 /plugin install yandex-direct-audit@ai-hub-open
 /plugin install vk-ads-manager@ai-hub-open
+/plugin install vk-ads-audit@ai-hub-open
 /plugin install yandex-metrika-manager@ai-hub-open
 ```
 
