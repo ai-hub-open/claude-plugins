@@ -1,6 +1,6 @@
 # ai-hub-open — скиллы для рекламы в Claude
 
-Пять скиллов, которые ведут работу маркетолога от стратегии до запуска и аудита рекламы:
+Шесть скиллов, которые ведут работу маркетолога от стратегии до запуска и аудита рекламы:
 
 | Плагин | Что делает | Репозиторий |
 |---|---|---|
@@ -9,7 +9,7 @@
 | `yandex-direct-audit` | Аудит, точечные правки и недельное ведение работающих кампаний Директа | [ai-hub-open/yandex-direct-audit](https://github.com/ai-hub-open/yandex-direct-audit) |
 | `vk-ads-manager` | VK Реклама от брифа до залива в кабинет и работы с активной кампанией | [ai-hub-open/vk-ads-manager](https://github.com/ai-hub-open/vk-ads-manager) |
 | `vk-ads-audit` | Аудит и быстрый анализ кабинета VK Рекламы только на чтение → HTML-отчёт с приоритетами | [ai-hub-open/vk-ads-audit](https://github.com/ai-hub-open/vk-ads-audit) |
-| `yandex-metrika-manager` | Аудит, анализ и управление Яндекс Метрикой (цели и сегменты под гейтом) | [ai-hub-open/yandex-metrika-manager](https://github.com/ai-hub-open/yandex-metrika-manager) |
+| `yandex-metrika-manager` | Аудит, анализ и управление Яндекс Метрикой (цели и сегменты — только после вашего «ОК») | [ai-hub-open/yandex-metrika-manager](https://github.com/ai-hub-open/yandex-metrika-manager) |
 
 Ставьте только нужные — скиллы независимы. Стратег сам передаёт готовую стратегию в скиллы
 Директа и VK, если они установлены.
@@ -94,6 +94,7 @@
    | `yandex-direct-manager` | [yandex-direct-manager.skill](https://github.com/ai-hub-open/yandex-direct-manager/releases/latest) |
    | `yandex-direct-audit` | [yandex-direct-audit.zip](https://github.com/ai-hub-open/yandex-direct-audit/releases/latest) |
    | `vk-ads-manager` | [vk-ads-manager.skill](https://github.com/ai-hub-open/vk-ads-manager/releases/latest) |
+   | `vk-ads-audit` | [vk-ads-audit.skill](https://github.com/ai-hub-open/vk-ads-audit/releases/latest) |
    | `yandex-metrika-manager` | [yandex-metrika-manager.zip](https://github.com/ai-hub-open/yandex-metrika-manager/releases/latest) |
 
    Файл `.skill` — это обычный ZIP. Если окно загрузки его не принимает, переименуйте в `.zip`.
