@@ -1,6 +1,6 @@
 # ai-hub-open — скиллы для рекламы в Claude
 
-Пять скиллов, которые ведут работу маркетолога от стратегии до запуска и аудита рекламы.
+Шесть скиллов, которые ведут работу маркетолога от стратегии до запуска и аудита рекламы.
 Ниже — установка в Claude Desktop по шагам, список скиллов — [после неё](#что-внутри).
 
 ## Установка в Claude Desktop
@@ -86,11 +86,12 @@ Git и откройте окно терминала заново.
 | `yandex-direct-manager` | Создание кампании в Яндекс.Директе от брифа до черновика в кабинете | [ai-hub-open/yandex-direct-manager](https://github.com/ai-hub-open/yandex-direct-manager) |
 | `yandex-direct-audit` | Аудит, точечные правки и недельное ведение работающих кампаний Директа | [ai-hub-open/yandex-direct-audit](https://github.com/ai-hub-open/yandex-direct-audit) |
 | `vk-ads-manager` | VK Реклама от брифа до залива в кабинет и работы с активной кампанией | [ai-hub-open/vk-ads-manager](https://github.com/ai-hub-open/vk-ads-manager) |
-| `yandex-metrika-manager` | Аудит, анализ и управление Яндекс Метрикой (цели и сегменты под гейтом) | [ai-hub-open/yandex-metrika-manager](https://github.com/ai-hub-open/yandex-metrika-manager) |
+| `vk-ads-audit` | Аудит и быстрый анализ кабинета VK Рекламы только на чтение → HTML-отчёт с приоритетами | [ai-hub-open/vk-ads-audit](https://github.com/ai-hub-open/vk-ads-audit) |
+| `yandex-metrika-manager` | Аудит, анализ и управление Яндекс Метрикой (цели и сегменты — только после вашего «ОК») | [ai-hub-open/yandex-metrika-manager](https://github.com/ai-hub-open/yandex-metrika-manager) |
 
 Стратег сам передаёт готовую стратегию в скиллы Директа и VK, если они установлены.
 
-## Другие способы установки
+## Какой способ установки выбрать
 
 | Где вы работаете | Способ | Обновления |
 |---|---|---|
@@ -112,6 +113,7 @@ Git и откройте окно терминала заново.
 /plugin install yandex-direct-manager@ai-hub-open
 /plugin install yandex-direct-audit@ai-hub-open
 /plugin install vk-ads-manager@ai-hub-open
+/plugin install vk-ads-audit@ai-hub-open
 /plugin install yandex-metrika-manager@ai-hub-open
 ```
 
@@ -142,6 +144,7 @@ Git и откройте окно терминала заново.
    | `yandex-direct-manager` | [releases](https://github.com/ai-hub-open/yandex-direct-manager/releases) | `yandex-direct-manager.skill` |
    | `yandex-direct-audit` | [releases](https://github.com/ai-hub-open/yandex-direct-audit/releases) | `yandex-direct-audit.zip` |
    | `vk-ads-manager` | [releases](https://github.com/ai-hub-open/vk-ads-manager/releases) | `vk-ads-manager.skill` |
+   | `vk-ads-audit` | [releases](https://github.com/ai-hub-open/vk-ads-audit/releases) | `vk-ads-audit.skill` |
    | `yandex-metrika-manager` | [releases](https://github.com/ai-hub-open/yandex-metrika-manager/releases) | `yandex-metrika-manager.zip` |
 
    Не скачивайте **Source code (zip)** — это исходники репозитория, а не скилл.
@@ -164,6 +167,7 @@ Git и откройте окно терминала заново.
 | `yandex-direct-manager` | Яндекс Директ, Вордстат; Метрика — по желанию (цели) |
 | `yandex-direct-audit` | Яндекс Директ; Метрика — по желанию |
 | `vk-ads-manager` | VK Реклама |
+| `vk-ads-audit` | VK Реклама; Метрика — по желанию |
 | `yandex-metrika-manager` | Яндекс Метрика |
 
 ### Шаг 1. Возьмите API-токен click.ru
